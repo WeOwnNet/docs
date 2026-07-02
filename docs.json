@@ -1,48 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "♾️ WeOwnNet 🌐 (docs)",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "favicon": "/favicon.svg",
+  "theme": "mint",
+  "name": ""♾️ WeOwnNet 🌐 (docs)",
   "colors": {
-    "primary": "#6366F1",
-    "light": "#818CF8",
-    "dark": "#4F46E5"
+    "primary": "#ff0000"
   },
-  "topbarLinks": [
-    { "name": "GitHub", "url": "https://github.com/WeOwnNet" }
-  ],
-  "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://weown.tools"
-  },
-  "navigation": [
-    {
-      "group": "🏛️ Governance",
-      "pages": [
-        "governance/shared-kernel",
-        "governance/best-practices",
-        "governance/protocols",
-        "governance/ccc"
-      ]
-    },
-    {
-      "group": "📚 Guides",
-      "pages": [
-        "guides/guide-015"
-      ]
-    },
-    {
-      "group": "🚀 Projects",
-      "pages": [
-        "projects/prj-401"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "github": "https://github.com/WeOwnNet",
-    "x": "https://x.com/WeOwnNet"
+  "navigation": {
+    "groups": [
+      {
+        "group": "Home",
+        "pages": ["index"]
+      }
+    ]
   }
 }
